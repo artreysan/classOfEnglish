@@ -5,48 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Subject Pronouns</title>
 </head>
 <body>
-    <p><a href="./index.htm">Return</a></p>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.htm">English Themes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nivel A1
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Vocabulary</a>
+                        <a class="dropdown-item" href="#">Speaking</a>
+                        <a class="dropdown-item" href="#">Listening</a>
+                        <a class="dropdown-item" href="#">Grammar</a>
+                        <a class="dropdown-item" href="#">Pronunciation</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+            </ul>
+        </div>
+      </nav>
+
+
     <h1>Subject Pronouns</h1>
-    <ul>
-        <li><a href="#theme1">I</a></li>
-        <li><a href="#theme2">You</a></li>
-        <li><a href="#theme3">He/ She / It</a></li>
-        <li><a href="#theme4">We</a></li>
-        <li><a href="#theme5">You</a></li>
-        <li><a href="#theme6">They</a></li>
+
+
+    <ul class="list-group">
+        <li class="list-group-item"><a href="#theme1" class="list-group-item list-group-item-action list-group-item-primary">I</a></li>
+        <li class="list-group-item"><a href="#theme2" class="list-group-item list-group-item-action list-group-item-primary">You</a></li>
+        <li class="list-group-item"><a href="#theme3" class="list-group-item list-group-item-action list-group-item-primary">He/ She / It</a></li>
+        <li class="list-group-item"><a href="#theme4" class="list-group-item list-group-item-action list-group-item-primary">We</a></li>
+        <li class="list-group-item"><a href="#theme5" class="list-group-item list-group-item-action list-group-item-primary">You</a></li>
+        <li class="list-group-item"><a href="#theme6" class="list-group-item list-group-item-action list-group-item-primary">They</a></li>
     </ul>
-    <div>
-        <h2 id="theme1">I</h2>
-        <p class="phonetics">Phonetics: ai</p>
-        <p class="translation">Translate in Spanish: Yo</p> 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 id="theme1">I</h2>
+            </div>
+            <div class="col">
+                <p class="phonetics">Phonetics: ai</p>
+                <p class="translation">Translate in Spanish: Yo</p>
+            </div>
+        </div>
+        <div class="row">        
+            <div class="col">
+                <h2 id="theme2">You</h2>
+            </div>
+            <div class="col">
+                <p class="phonetics">Phonetics: iu</p>
+                <p class="translation">Translate in Spanish: Tu</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="theme3">He / She / It</h2>
+            </div>
+            <div class="col">
+                <p class="phonetics">Phonetics: hi shi it</p>
+                <p class="translation">Translate in Spanish: (tu/usted)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="theme4">We</h2>
+            </div>
+            <div class="col">
+                <p class="phonetics">Fonteica: ai</p>
+                <p class="translation">Translate in Spanish: Yo</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="theme5">You (Plural)</h2>
+            </div>
+            <div class="col">
+                <p class="phonetics">Fonteica: ai</p>
+                <p class="translation">Translate in Spanish: Ustedes</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="theme6">They</h2>
+            </div>
+            <div class="col">
+                <p class="phonetics">Fonteica: dhei</p>
+                <p class="translation">Translate in Spanish: Ellos/Ellas</p>    
+            </div>
+        </div>
     </div>
-    <div>
-        <h2 id="theme2">You</h2>
-        <p class="phonetics">Phonetics: iu</p>
-        <p class="translation">Translate in Spanish: Tu</p> 
-    </div>
-    <div>
-        <h2 id="theme3">He / She / It</h2>
-        <p class="phonetics">Phonetics: hi shi it</p>
-        <p class="translation">Translate in Spanish: (tu/usted)</p> 
-    </div>
-    <div>
-        <h2 id="theme4">We</h2>
-        <p class="phonetics">Fonteica: ai</p>
-        <p class="translation">Translate in Spanish: Yo</p> 
-    </div>
-    <div>
-        <h2 id="theme5">You (Plural)</h2>
-        <p class="phonetics">Fonteica: ai</p>
-        <p class="translation">Translate in Spanish: Ustedes</p>
-    </div>
-    <div>
-        <h2 id="theme6">They</h2>
-        <p class="phonetics">Fonteica: dhei</p>
-        <p class="translation">Translate in Spanish: Ellos/Ellas</p> 
-    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap
 </body>
 </html>
