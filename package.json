@@ -1,0 +1,25 @@
+{
+  "name": "classofenglish",
+  "version": "1.0.0",
+  "description": "Webpage realationate with my notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beartree-ars/classOfEnglish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beartree-ars/classOfEnglish/issues"
+  },
+  "homepage": "https://github.com/beartree-ars/classOfEnglish#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
