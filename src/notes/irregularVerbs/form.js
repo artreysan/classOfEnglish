@@ -24,7 +24,5 @@ function data() {
     })
 }
 
-
-
 data()
 
